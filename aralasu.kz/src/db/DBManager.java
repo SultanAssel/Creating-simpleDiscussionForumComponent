@@ -10,7 +10,7 @@ public class DBManager {
     static {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:8111/week5?useUnicode=true&serverTimezone=UTC", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:8111/javaeeendka?useUnicode=true&serverTimezone=UTC", "root", "");
         }
         catch (ClassNotFoundException e){
             e.printStackTrace();
